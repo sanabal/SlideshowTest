@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+import 'src/pages/pinterest_page.dart';
 import 'src/pages/slideshow_page.dart';
 
 void main() {
@@ -14,7 +15,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return const MaterialApp(
       title: 'Diseño App',
-      home: SlideshowPage(),
+      home: PinterestPage(),
     );
   }
 }
